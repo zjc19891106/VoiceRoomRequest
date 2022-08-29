@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		054A36C428BC543700E40E8B /* VoiceRoomRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054A36C328BC543700E40E8B /* VoiceRoomRequest.swift */; };
+		263113138F55D3700297113EE98EAC4C /* Pods-VoiceRoomRequest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B521DAEC84BA50ABDB888755E8C1DDB /* Pods-VoiceRoomRequest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26465796C2E6D9F2750DB2178D07E9F7 /* Pods-VoiceRoomRequest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B0B806BF562E1B7443893B4E2C544D /* Pods-VoiceRoomRequest_Example-dummy.m */; };
+		7D637C36FEC0DFA510AED4BDB2E50063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B611F5F2A1F31F4BC6BFF4C45FE370EB /* VoiceRoomRequest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC40F1687CAFCF43E4D0B377C81E65B /* VoiceRoomRequest-dummy.m */; };
+		BF83C796FC895E8D1E76084C578C231B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CB654B42ED52845DE5BBEFA6FAED3451 /* Pods-VoiceRoomRequest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9852AD92D78B5B60C342A2AB71F0EFE /* Pods-VoiceRoomRequest_Tests-dummy.m */; };
+		D9EC4D786F0A3004034D02593F27D457 /* VoiceRoomRequest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEF96B79377687623FF82B7D7E022DF /* VoiceRoomRequest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF421CBF451FD8EABB021B539B2C4179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DF6770F73103D3D183105A99CA1D3932 /* Pods-VoiceRoomRequest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F2B49E82E079C5C6A0394F05DEE450A /* Pods-VoiceRoomRequest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A7B0F79A1DC6E529674A8AA2376CE4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B98191D445B0F63242159FC59206F225;
+			remoteInfo = "Pods-VoiceRoomRequest_Example";
+		};
+		FA3C3E5C43BA3E3B979A871EB8A02BCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14750D1D66F0A1F2A66902C3238E07A8;
+			remoteInfo = VoiceRoomRequest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		054A36C328BC543700E40E8B /* VoiceRoomRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoiceRoomRequest.swift; path = VoiceRoomRequest/Classes/VoiceRoomRequest.swift; sourceTree = "<group>"; };
+		0F2B49E82E079C5C6A0394F05DEE450A /* Pods-VoiceRoomRequest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoiceRoomRequest_Tests-umbrella.h"; sourceTree = "<group>"; };
+		15688FA4610AD6EE5AA3319FD0CEEE78 /* Pods-VoiceRoomRequest_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VoiceRoomRequest_Tests"; path = Pods_VoiceRoomRequest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27388930DA857DA51E1E12DF546CF99E /* Pods-VoiceRoomRequest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoiceRoomRequest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D0BCEB80CD691EE96021DE8A663EA97 /* Pods-VoiceRoomRequest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoiceRoomRequest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		406B59524A649E891FCBB89C2B35266F /* Pods-VoiceRoomRequest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRoomRequest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		466900103059D46B53DEC1301E6C9158 /* Pods-VoiceRoomRequest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VoiceRoomRequest_Example.modulemap"; sourceTree = "<group>"; };
+		510A30D582409685406EEA19C2B422CA /* Pods-VoiceRoomRequest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceRoomRequest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61D6E053CA422350E2A5F23AAA1D3391 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		64BED2CA6D462DE1BD5CE8C60666BE5F /* VoiceRoomRequest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VoiceRoomRequest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6D03618B47D800FA34CA265AF70A9A1A /* Pods-VoiceRoomRequest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceRoomRequest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CCA19B9C7213E0091CB51FEAF8ED0DB /* Pods-VoiceRoomRequest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VoiceRoomRequest_Example-frameworks.sh"; sourceTree = "<group>"; };
+		91C47CDFCFEF7E5AF39E8B2DC9BEEA6D /* VoiceRoomRequest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VoiceRoomRequest; path = VoiceRoomRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96068E6A76ABF209DD9DAFDC0EBC8D19 /* VoiceRoomRequest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VoiceRoomRequest-Info.plist"; sourceTree = "<group>"; };
+		9A899BEE6D681EEF823BE8A2D9875D74 /* VoiceRoomRequest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VoiceRoomRequest-prefix.pch"; sourceTree = "<group>"; };
+		9B521DAEC84BA50ABDB888755E8C1DDB /* Pods-VoiceRoomRequest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoiceRoomRequest_Example-umbrella.h"; sourceTree = "<group>"; };
+		9CEF96B79377687623FF82B7D7E022DF /* VoiceRoomRequest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VoiceRoomRequest-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0DCF96A8E6DC47550016482E3DDA1AC /* Pods-VoiceRoomRequest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceRoomRequest_Example-Info.plist"; sourceTree = "<group>"; };
+		B7B0B806BF562E1B7443893B4E2C544D /* Pods-VoiceRoomRequest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoiceRoomRequest_Example-dummy.m"; sourceTree = "<group>"; };
+		B9852AD92D78B5B60C342A2AB71F0EFE /* Pods-VoiceRoomRequest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoiceRoomRequest_Tests-dummy.m"; sourceTree = "<group>"; };
+		C4EDE11DD80A13DE7B303FDFA7F8CF0D /* VoiceRoomRequest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VoiceRoomRequest.modulemap; sourceTree = "<group>"; };
+		CB1332276C538B67FB9EF427ADFEB001 /* Pods-VoiceRoomRequest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRoomRequest_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD92131B0FC9F3E3C60CCC0EB26E90AA /* Pods-VoiceRoomRequest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRoomRequest_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D0CC20271AF32D3D0A4435D482DE7E92 /* Pods_VoiceRoomRequest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiceRoomRequest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D332F7F66887D7EB9ACDD932BF4E94AE /* Pods-VoiceRoomRequest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VoiceRoomRequest_Tests.modulemap"; sourceTree = "<group>"; };
+		D6C431D85844B9EEBF5016CA58F6C5AD /* VoiceRoomRequest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceRoomRequest.release.xcconfig; sourceTree = "<group>"; };
+		DCC40F1687CAFCF43E4D0B377C81E65B /* VoiceRoomRequest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VoiceRoomRequest-dummy.m"; sourceTree = "<group>"; };
+		EAF1D31A70B13681CC5F6DDF4B8D6325 /* VoiceRoomRequest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceRoomRequest.debug.xcconfig; sourceTree = "<group>"; };
+		F23E2665D06B6D67F3B40A6ADE319B41 /* Pods-VoiceRoomRequest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRoomRequest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5797B045685B490D06BFA11EDA29E1C /* Pods-VoiceRoomRequest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceRoomRequest_Tests-Info.plist"; sourceTree = "<group>"; };
+		F5F99995C400DDC9B7781855A8F74324 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D69259DEA4EAD11FFF56EE2EDB5831F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF83C796FC895E8D1E76084C578C231B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4E8AD9953EBD39AA0668B66E9BAE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF421CBF451FD8EABB021B539B2C4179 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1541015FC4037019F7D1C7F132C4BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D637C36FEC0DFA510AED4BDB2E50063 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0877E89C0308EEA0676B93FB3E786BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0CC20271AF32D3D0A4435D482DE7E92 /* Pods_VoiceRoomRequest_Example.framework */,
+				15688FA4610AD6EE5AA3319FD0CEEE78 /* Pods-VoiceRoomRequest_Tests */,
+				91C47CDFCFEF7E5AF39E8B2DC9BEEA6D /* VoiceRoomRequest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1793B63F7ED15FBC4F5189535A134FDA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4EDE11DD80A13DE7B303FDFA7F8CF0D /* VoiceRoomRequest.modulemap */,
+				DCC40F1687CAFCF43E4D0B377C81E65B /* VoiceRoomRequest-dummy.m */,
+				96068E6A76ABF209DD9DAFDC0EBC8D19 /* VoiceRoomRequest-Info.plist */,
+				9A899BEE6D681EEF823BE8A2D9875D74 /* VoiceRoomRequest-prefix.pch */,
+				9CEF96B79377687623FF82B7D7E022DF /* VoiceRoomRequest-umbrella.h */,
+				EAF1D31A70B13681CC5F6DDF4B8D6325 /* VoiceRoomRequest.debug.xcconfig */,
+				D6C431D85844B9EEBF5016CA58F6C5AD /* VoiceRoomRequest.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VoiceRoomRequest";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58D90EFFBCAAD32207DC6017759FF822 /* Pods-VoiceRoomRequest_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D332F7F66887D7EB9ACDD932BF4E94AE /* Pods-VoiceRoomRequest_Tests.modulemap */,
+				3D0BCEB80CD691EE96021DE8A663EA97 /* Pods-VoiceRoomRequest_Tests-acknowledgements.markdown */,
+				510A30D582409685406EEA19C2B422CA /* Pods-VoiceRoomRequest_Tests-acknowledgements.plist */,
+				B9852AD92D78B5B60C342A2AB71F0EFE /* Pods-VoiceRoomRequest_Tests-dummy.m */,
+				F5797B045685B490D06BFA11EDA29E1C /* Pods-VoiceRoomRequest_Tests-Info.plist */,
+				0F2B49E82E079C5C6A0394F05DEE450A /* Pods-VoiceRoomRequest_Tests-umbrella.h */,
+				F23E2665D06B6D67F3B40A6ADE319B41 /* Pods-VoiceRoomRequest_Tests.debug.xcconfig */,
+				406B59524A649E891FCBB89C2B35266F /* Pods-VoiceRoomRequest_Tests.release.xcconfig */,
+			);
+			name = "Pods-VoiceRoomRequest_Tests";
+			path = "Target Support Files/Pods-VoiceRoomRequest_Tests";
+			sourceTree = "<group>";
+		};
+		92EE8899DF138FF507A3EBD07F311CD4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E52DF02A32D7134474237FAE7C3D67C3 /* Pods-VoiceRoomRequest_Example */,
+				58D90EFFBCAAD32207DC6017759FF822 /* Pods-VoiceRoomRequest_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		980F6749C9F46751D540F078A20E3171 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E22DA58C2FB98CFAE99F3A7FC45B566F /* VoiceRoomRequest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				980F6749C9F46751D540F078A20E3171 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0877E89C0308EEA0676B93FB3E786BD2 /* Products */,
+				92EE8899DF138FF507A3EBD07F311CD4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0A5682A0C8B2E072BB89ECA776AE737 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F5F99995C400DDC9B7781855A8F74324 /* LICENSE */,
+				61D6E053CA422350E2A5F23AAA1D3391 /* README.md */,
+				64BED2CA6D462DE1BD5CE8C60666BE5F /* VoiceRoomRequest.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E22DA58C2FB98CFAE99F3A7FC45B566F /* VoiceRoomRequest */ = {
+			isa = PBXGroup;
+			children = (
+				054A36C328BC543700E40E8B /* VoiceRoomRequest.swift */,
+				E0A5682A0C8B2E072BB89ECA776AE737 /* Pod */,
+				1793B63F7ED15FBC4F5189535A134FDA /* Support Files */,
+			);
+			name = VoiceRoomRequest;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E52DF02A32D7134474237FAE7C3D67C3 /* Pods-VoiceRoomRequest_Example */ = {
+			isa = PBXGroup;
+			children = (
+				466900103059D46B53DEC1301E6C9158 /* Pods-VoiceRoomRequest_Example.modulemap */,
+				27388930DA857DA51E1E12DF546CF99E /* Pods-VoiceRoomRequest_Example-acknowledgements.markdown */,
+				6D03618B47D800FA34CA265AF70A9A1A /* Pods-VoiceRoomRequest_Example-acknowledgements.plist */,
+				B7B0B806BF562E1B7443893B4E2C544D /* Pods-VoiceRoomRequest_Example-dummy.m */,
+				7CCA19B9C7213E0091CB51FEAF8ED0DB /* Pods-VoiceRoomRequest_Example-frameworks.sh */,
+				B0DCF96A8E6DC47550016482E3DDA1AC /* Pods-VoiceRoomRequest_Example-Info.plist */,
+				9B521DAEC84BA50ABDB888755E8C1DDB /* Pods-VoiceRoomRequest_Example-umbrella.h */,
+				CB1332276C538B67FB9EF427ADFEB001 /* Pods-VoiceRoomRequest_Example.debug.xcconfig */,
+				CD92131B0FC9F3E3C60CCC0EB26E90AA /* Pods-VoiceRoomRequest_Example.release.xcconfig */,
+			);
+			name = "Pods-VoiceRoomRequest_Example";
+			path = "Target Support Files/Pods-VoiceRoomRequest_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9C2DF575C3AD6D578BF15D88AE9CA432 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EC4D786F0A3004034D02593F27D457 /* VoiceRoomRequest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7A25F56000069602547DA82CEC504C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263113138F55D3700297113EE98EAC4C /* Pods-VoiceRoomRequest_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B3F44A1520E093D8DE0FEF9FC88456 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6770F73103D3D183105A99CA1D3932 /* Pods-VoiceRoomRequest_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14750D1D66F0A1F2A66902C3238E07A8 /* VoiceRoomRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0749FF058841DD8D529C4B06538335F6 /* Build configuration list for PBXNativeTarget "VoiceRoomRequest" */;
+			buildPhases = (
+				9C2DF575C3AD6D578BF15D88AE9CA432 /* Headers */,
+				EB0FBA6C9E8DB39331011368D407D9EE /* Sources */,
+				A1541015FC4037019F7D1C7F132C4BA2 /* Frameworks */,
+				4BA6274A305D51258C558D72E1A5360E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceRoomRequest;
+			productName = VoiceRoomRequest;
+			productReference = 91C47CDFCFEF7E5AF39E8B2DC9BEEA6D /* VoiceRoomRequest */;
+			productType = "com.apple.product-type.framework";
+		};
+		6058B5B3FD91CC92B56449E0B7608FC2 /* Pods-VoiceRoomRequest_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE66A4C7783DE4EB5A6F74BF0F5BA52 /* Build configuration list for PBXNativeTarget "Pods-VoiceRoomRequest_Tests" */;
+			buildPhases = (
+				F5B3F44A1520E093D8DE0FEF9FC88456 /* Headers */,
+				28EC73F794E0A5117DEC3B9EE1185D7B /* Sources */,
+				0D69259DEA4EAD11FFF56EE2EDB5831F /* Frameworks */,
+				7C38E717C17C9F1C9FA0BAA257809A24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B21BF3F17611951B7BFF33596A3787D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-VoiceRoomRequest_Tests";
+			productName = Pods_VoiceRoomRequest_Tests;
+			productReference = 15688FA4610AD6EE5AA3319FD0CEEE78 /* Pods-VoiceRoomRequest_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B98191D445B0F63242159FC59206F225 /* Pods-VoiceRoomRequest_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C52ED3E66F4E4CD81A5CD538E3D34EF /* Build configuration list for PBXNativeTarget "Pods-VoiceRoomRequest_Example" */;
+			buildPhases = (
+				BB7A25F56000069602547DA82CEC504C /* Headers */,
+				B49F612F75BD8B62BAFC3447464E5300 /* Sources */,
+				4B4E8AD9953EBD39AA0668B66E9BAE10 /* Frameworks */,
+				7AE845B4F93564251439D462CDD6EEEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04252109B56975455CEFFFF604F28781 /* PBXTargetDependency */,
+			);
+			name = "Pods-VoiceRoomRequest_Example";
+			productName = Pods_VoiceRoomRequest_Example;
+			productReference = D0CC20271AF32D3D0A4435D482DE7E92 /* Pods_VoiceRoomRequest_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B98191D445B0F63242159FC59206F225 = {
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0877E89C0308EEA0676B93FB3E786BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B98191D445B0F63242159FC59206F225 /* Pods-VoiceRoomRequest_Example */,
+				6058B5B3FD91CC92B56449E0B7608FC2 /* Pods-VoiceRoomRequest_Tests */,
+				14750D1D66F0A1F2A66902C3238E07A8 /* VoiceRoomRequest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BA6274A305D51258C558D72E1A5360E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE845B4F93564251439D462CDD6EEEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C38E717C17C9F1C9FA0BAA257809A24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28EC73F794E0A5117DEC3B9EE1185D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB654B42ED52845DE5BBEFA6FAED3451 /* Pods-VoiceRoomRequest_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49F612F75BD8B62BAFC3447464E5300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26465796C2E6D9F2750DB2178D07E9F7 /* Pods-VoiceRoomRequest_Example-dummy.m in Sources */,
+				054A36C428BC543700E40E8B /* VoiceRoomRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0FBA6C9E8DB39331011368D407D9EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B611F5F2A1F31F4BC6BFF4C45FE370EB /* VoiceRoomRequest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04252109B56975455CEFFFF604F28781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VoiceRoomRequest;
+			target = 14750D1D66F0A1F2A66902C3238E07A8 /* VoiceRoomRequest */;
+			targetProxy = FA3C3E5C43BA3E3B979A871EB8A02BCD /* PBXContainerItemProxy */;
+		};
+		B21BF3F17611951B7BFF33596A3787D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VoiceRoomRequest_Example";
+			target = B98191D445B0F63242159FC59206F225 /* Pods-VoiceRoomRequest_Example */;
+			targetProxy = 7A7B0F79A1DC6E529674A8AA2376CE4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41227C8AD58CE792998175A3FDD7DAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB1332276C538B67FB9EF427ADFEB001 /* Pods-VoiceRoomRequest_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VoiceRoomRequest_Example/Pods-VoiceRoomRequest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VoiceRoomRequest_Example/Pods-VoiceRoomRequest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		95188AD7BE30C422F753992D6D64CE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF1D31A70B13681CC5F6DDF4B8D6325 /* VoiceRoomRequest.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VoiceRoomRequest/VoiceRoomRequest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VoiceRoomRequest/VoiceRoomRequest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VoiceRoomRequest/VoiceRoomRequest.modulemap";
+				PRODUCT_MODULE_NAME = VoiceRoomRequest;
+				PRODUCT_NAME = VoiceRoomRequest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98FDE49A8F2E3DEAA6A2E4142DB7FE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C431D85844B9EEBF5016CA58F6C5AD /* VoiceRoomRequest.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VoiceRoomRequest/VoiceRoomRequest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VoiceRoomRequest/VoiceRoomRequest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VoiceRoomRequest/VoiceRoomRequest.modulemap";
+				PRODUCT_MODULE_NAME = VoiceRoomRequest;
+				PRODUCT_NAME = VoiceRoomRequest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A4A0266567EA1FFF0300BB95B6A129B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406B59524A649E891FCBB89C2B35266F /* Pods-VoiceRoomRequest_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VoiceRoomRequest_Tests/Pods-VoiceRoomRequest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VoiceRoomRequest_Tests/Pods-VoiceRoomRequest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A76B0D7B6E1FD30B408A249391A1813F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD92131B0FC9F3E3C60CCC0EB26E90AA /* Pods-VoiceRoomRequest_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VoiceRoomRequest_Example/Pods-VoiceRoomRequest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VoiceRoomRequest_Example/Pods-VoiceRoomRequest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3E1796A495FC1E46FBD5E85B6CBFAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F23E2665D06B6D67F3B40A6ADE319B41 /* Pods-VoiceRoomRequest_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VoiceRoomRequest_Tests/Pods-VoiceRoomRequest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VoiceRoomRequest_Tests/Pods-VoiceRoomRequest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0749FF058841DD8D529C4B06538335F6 /* Build configuration list for PBXNativeTarget "VoiceRoomRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95188AD7BE30C422F753992D6D64CE0F /* Debug */,
+				98FDE49A8F2E3DEAA6A2E4142DB7FE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C52ED3E66F4E4CD81A5CD538E3D34EF /* Build configuration list for PBXNativeTarget "Pods-VoiceRoomRequest_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41227C8AD58CE792998175A3FDD7DAB7 /* Debug */,
+				A76B0D7B6E1FD30B408A249391A1813F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DE66A4C7783DE4EB5A6F74BF0F5BA52 /* Build configuration list for PBXNativeTarget "Pods-VoiceRoomRequest_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E1796A495FC1E46FBD5E85B6CBFAC9 /* Debug */,
+				9A4A0266567EA1FFF0300BB95B6A129B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
